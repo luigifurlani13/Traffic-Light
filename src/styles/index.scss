@@ -11,19 +11,50 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.extension{
+    background-color: black;
+    height: 670px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box{
+    background-color: black;
+    position: absolute;
+    height: 550px;
+    width: 250px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    border-radius: 25px;
+}
 .red {
     background-color: red;
     opacity: 0.5;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
 }
 
 .yellow {
     background-color: yellow;
     opacity: 0.5;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .green {
     background-color: green;
     opacity: 0.5;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
 }
 
 .highlight {
